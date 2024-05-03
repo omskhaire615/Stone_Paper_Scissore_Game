@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar
+{
+    height: 3rem;
+    background-color: rgb(53, 93, 94);
+    text-align: center;
+    line-height: 3rem;
+    color: white;
+    font-size: 2rem;
+}
+#gamebar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+.game
+{
+    height: 200px;
+    width: 200px;
+    font-size: 10rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gamebar :hover
+{
+    opacity: 70%;
+}
+#rock
+{
+    background-color: #94FFD8;
+}
+#paper
+{
+    background-color:#FF76CE;
+}
+#scisser
+{
+    background-color:#A3D8FF;
+}
+#runbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    margin-top: 5rem;
+}
+#you
+{
+    text-align: center;
+    font-size: 30px;
+}
+#comp
+{
+    text-align: center;
+    font-size: 30px;
+}
+#yourmarks
+{
+    font-size: 50px;
+}
+#compmarks
+{
+    font-size: 50px;
+}
+#output
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#play
+{
+    background-color: rgb(30, 48, 49);
+    height: 3rem;
+    width: 40rem;
+    border-radius: 20px;
+    line-height: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+#move
+{
+    color: white;
+    font-size: 2rem;
+}
